@@ -12,7 +12,7 @@ ul {
     margin: 0;
 }
 
-p, h1, h3 {
+p, h1, h2, h3 {
     margin: 0;
 }
 
@@ -72,15 +72,19 @@ header ul, .intro-body, .resume-button{
     gap: 200px;
 }
 
+.introduction div {
+    display: flex;
+    flex-direction: column;
+}
+
 .intro-body {
-    height: 100px;
-    width: 700px;
+    max-width: 700px;
     margin: 10px 0 15px 0;
 }
 
 .resume-button {
     height: 50px;
-    width: 100px;
+    max-width: 100px;
     margin-top: 24px;
     display: flex;
     justify-content: center;
@@ -95,4 +99,77 @@ header ul, .intro-body, .resume-button{
     color: #f9faf8;
 }
 
+.projects h1 {
+    margin: 28px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+}
 
+.project-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.project-box div {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    max-width: 275px;
+    text-align: center;
+}
+
+.project-box img {
+    height: auto;
+    max-width: 250px;
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+}
+
+.about-me {
+    background-color: #e5e7eb;
+    padding: 20px;
+}
+
+.about-me h2 {
+    color: orangered;
+    font-size: 36px;
+    padding-bottom: 16px;
+    padding-left: 68px;
+}
+
+.description {
+    max-width: 860px;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 0 110px;
+}
+
+.description p {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.connect:hover {
+    color: orangered;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+
+
+
+footer{
+    padding: 8px;
+    text-align: center;
+}
+
+footer span {
+    color: orangered;
+}
