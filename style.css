@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p, h1, h3 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header, footer, .introduction {
+    background-color: #1f2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header ul {
+    display: flex;
+    gap: 12px;
+    margin-right: 8px;
+}
+
+header li :hover {
+    color: orangered;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header ul, .intro-body, .resume-button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.introduction {
+    padding: 20px;
+}
+
+.greeting {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.greeting span {
+    color: orangered;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.intro-body {
+    height: 100px;
+    width: 700px;
+    margin: 10px 0 15px 0;
+}
+
+.resume-button {
+    height: 50px;
+    width: 100px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.resume-button :hover {
+    border-color: #f9faf8;
+    color: #f9faf8;
+}
+
+
