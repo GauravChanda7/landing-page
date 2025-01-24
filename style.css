@@ -46,6 +46,12 @@ header li :hover {
     color: #f9faf8;
 }
 
+.logo:hover {
+    color: orangered !important;
+}
+
+
+
 header ul, .intro-body, .resume-button{
     font-size: 18px;
     color: #e5e7eb;
@@ -69,10 +75,12 @@ header ul, .intro-body, .resume-button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 200px;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+    flex: 1 1 0;
 }
 
-.introduction div {
+.introduction .left {
     display: flex;
     flex-direction: column;
 }
@@ -97,6 +105,12 @@ header ul, .intro-body, .resume-button{
 .resume-button :hover {
     border-color: #f9faf8;
     color: #f9faf8;
+}
+
+.profile-photo img {
+    max-width: 350px;
+    height: auto;
+    padding-right: 30px;
 }
 
 .projects h1 {
@@ -156,7 +170,7 @@ header ul, .intro-body, .resume-button{
     margin-bottom: 4px;
 }
 
-.connect:hover {
+.connect a:hover {
     color: orangered;
     cursor: pointer;
     font-weight: 400;
