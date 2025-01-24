@@ -77,7 +77,6 @@ header ul, .intro-body, .resume-button{
     align-items: center;
     gap: 20px;
     flex-wrap: wrap-reverse;
-    flex: 1 1 0;
 }
 
 .introduction .left {
